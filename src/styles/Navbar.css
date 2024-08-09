@@ -1,0 +1,39 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    width: 100%;
+}
+
+.container img{
+    max-width: 200px;
+    max-height: 50px;
+}
+
+.container .rightSide{
+    display: flex;
+    align-items: center;
+}
+
+.container .link{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.container button{
+    display: none;
+}
+
+@media screen and (max-width: 568px) {
+    .container button{
+        display: block;
+        background: transparent;
+        color: white;
+        border: 0;
+    }
+
+   
+}
